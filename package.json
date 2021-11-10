@@ -1,7 +1,7 @@
 {
-  "name": "discord-musicbot",
-  "version": "4.1.2",
-  "description": "Very simple discord music bot with the discord.js with Song Name playing. It can able to play music with the song name",
+  "name": "audacious-v2",
+  "version": 2,
+  "description": "Forked from SudhanPlayz's Discord-Musicot. Very simple discord music bot with the discord.js with Song Name playing. It can able to play music with the song name",
   "main": "index.js",
   "scripts": {
     "install-node-v14": "wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash && export NVM_DIR=\"$([ -z \"${XDG_CONFIG_HOME-}\" ] && printf %s \"${HOME}/.nvm\" || printf %s \"${XDG_CONFIG_HOME}/nvm\")\" && [ -s \"$NVM_DIR/nvm.sh\" ] && \\. \"$NVM_DIR/nvm.sh\" && nvm install 14 && nvm use 14",
@@ -24,7 +24,7 @@
     "music",
     "discord-music"
   ],
-  "author": "SudhanPlayz",
+  "author": "kjay23",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
     "url": "https://github.com/SudhanPlayz/Discord-MusicBot/issues"

@@ -43,7 +43,7 @@ module.exports = {
     if (!CheckNode || !CheckNode.connected) {
       return client.sendTime(
         message.channel,
-        "❌ | **Lavalink node not connected**"
+        "⏳ | **Lavalink node is restarting. It will be right back in a few seconds to maintain audio quality.\nPlease try again.**"
       );
     }
     const player = client.Manager.create({
@@ -240,7 +240,7 @@ module.exports = {
       if (!CheckNode || !CheckNode.connected) {
         return client.sendTime(
           interaction,
-          "❌ | **Lavalink node not connected**"
+          "⏳ | **Lavalink node is restarting. It will be right back in a few minutes to maintain audio quality.\nPlease try again.**"
         );
       }
 
